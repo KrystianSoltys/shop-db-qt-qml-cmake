@@ -14,9 +14,9 @@ find_package(Qt6 6.2 COMPONENTS Core Quick QuickControls2 REQUIRED)
 
 
 qt_add_executable(appshop-db-qt-qml-cmake
-    main.cpp
-    dbconnector.hpp dbconnector.cpp
-    qml.qrc
+    src/main.cpp
+    src/dbconnector.hpp src/dbconnector.cpp
+    src/qml.qrc
 )
 
 #qt_add_resources(appshop-db-qt-qml-cmake
